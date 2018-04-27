@@ -102,3 +102,26 @@ margin-bottom: 100px;
   font-style: italic;
   color: white;
 }
+.delivery {
+  background-image: url(../ip2/assets/backgrounds/subscribe.jpg);
+  height: 300px;
+}
+.head {
+  font-style: italic;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+.box {
+  text-align: center;
+  margin-top: 50px;
+  height: 50px;
+}
+.menu {
+  background-color: yellow;
+  height: 300;
+}
+body{
+  overflow: scroll;
+  overflow-x: hidden;
+}

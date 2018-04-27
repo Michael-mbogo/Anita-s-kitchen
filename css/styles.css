@@ -21,3 +21,26 @@
 .space{
   margin: 50px;
 }
+.fastfood{
+  float: left;
+}
+.space2 {
+  margin: 50px;
+}
+.drinks {
+  float: right;
+}
+.spacebreak {
+  margin: 110px;
+}
+.lastimage img {
+  position: relative;
+  width: 100%
+
+}
+.foodsbg{
+  width: 100%;
+}
+.spacebreak2 {
+  margin: 100px;
+}

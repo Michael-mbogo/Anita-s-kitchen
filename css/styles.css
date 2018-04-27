@@ -51,7 +51,7 @@
   float: right;
 }
 .spacebreak {
-  margin: 110px;
+  margin: 150px;
 }
 .lastimage img {
   position: relative;
@@ -72,7 +72,24 @@
   border: none;
   margin: 0px;
 }
-.fastFood {
-  padding-right: 
-
+.fastfood {
+  margin-left:445px;
+  -webkit-box-shadow: 15px 8px 28px 13px rgba(234,236,237,1);
+-moz-box-shadow: 15px 8px 28px 13px rgba(234,236,237,1);
+box-shadow: 15px 8px 28px 13px rgba(234,236,237,1);
+border: 2px;
+margin-bottom: 100px;
+}
+.drinks {
+  margin-right: 440px;
+  -webkit-box-shadow: -1px 2px 4px 22px rgba(245,240,245,1);
+-moz-box-shadow: -1px 2px 4px 22px rgba(245,240,245,1);
+box-shadow: -1px 2px 4px 22px rgba(245,240,245,1);
+margin-bottom: 100px;
+}
+.fastp {
+  margin-right: 400px;
+}
+.drinkp {
+  margin-left: 400px;
 }

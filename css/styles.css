@@ -9,18 +9,38 @@
 .bannerText{
   position: absolute;
   text-align: center;
-  top: 50%;
+  top: 70%;
   margin-left: 35%;
+  font-size: 10px;
 
 }
 .logo{
   position: absolute;
-  top:10%;
-  margin-left: 40%;
+  top:25%;
+  margin-left: 45%
 }
 .space{
   margin: 50px;
 }
+.button2 {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #2e282e;
+  font-size: 31px;
+  background: #ffffff;
+  padding: 20px 20px 22px 40px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.button2:hover {
+  background: #fc693c;
+  text-decoration: none;
+}
+
 .fastfood{
   float: left;
 }
@@ -43,4 +63,16 @@
 }
 .spacebreak2 {
   margin: 100px;
+}
+.breakfast {
+
+}
+.padding-0 {
+  padding: 0px;
+  border: none;
+  margin: 0px;
+}
+.fastFood {
+  padding-right: 
+
 }

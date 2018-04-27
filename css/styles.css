@@ -1,4 +1,23 @@
-img {
-  display: block;
+.banner{
   width: 100%;
+  position: relative;
+
+}
+.banner img{
+  width: 100%;
+}
+.bannerText{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  margin-left: 35%;
+
+}
+.logo{
+  position: absolute;
+  top:10%;
+  margin-left: 40%;
+}
+.space{
+  margin: 50px;
 }

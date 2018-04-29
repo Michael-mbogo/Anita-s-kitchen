@@ -51,7 +51,17 @@
   float: right;
 }
 .spacebreak {
-  margin: 150px;
+  margin: 50px;
+}
+.lastimage img {
+  position: relative;
+  width: 100%
+}
+.table {
+  position: absolute;
+}
+.foodsbg{
+  width: 100%;
 }
 .spacebreak2 {
   margin: 100px;
@@ -77,7 +87,7 @@ margin-bottom: 100px;
   -webkit-box-shadow: -1px 2px 4px 22px rgba(245,240,245,1);
 -moz-box-shadow: -1px 2px 4px 22px rgba(245,240,245,1);
 box-shadow: -1px 2px 4px 22px rgba(245,240,245,1);
-margin-bottom: 10px;
+margin-bottom: 100px;
 }
 .fastp {
   margin-right: 400px;
@@ -87,6 +97,82 @@ margin-bottom: 10px;
 }
 .foodsbg {
   background-image: url(../ip2/assets/backgrounds/foodsBg.jpg);
-  height: 700px;
+  height: 600px;
+  margin-top: 10px;
+  margin-bottom: 70px;
 }
-table
+table {
+  background-color: white;
+  width: 60%;
+  margin-left: 400px;
+
+}
+.fastfood img{
+  display: none;
+}
+body {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.imgcustomer {
+  margin-left: 50px;
+  color: #FF5533;
+}
+.customers {
+  text-align: center;
+  color: #FF5533
+}
+.name {
+  text-align: center;
+  color: #FF5533;
+}.comment {
+  text-align: center;
+}
+.about {
+  text-align: center;
+  color: #FF5533;
+}
+.subscribe {
+  background-image: url(../ip2/assets/backgrounds/subscribe.jpg);
+  height: 300px;
+  width: 100%
+}
+.deliver {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  padding-top: 100px;
+}
+.box {
+  text-align: center;
+  filter:opacity(0.4);
+  width: 80%;
+  border-spacing: 100px;
+}
+.orange {
+  background-color: #F95006;
+  height: 300px;
+}
+.logowhite {
+  padding-top: 100px;
+  padding-left: 850px;
+  color: white;
+
+
+}
+.hheading {
+  font-size: 16px;
+  font-style: oblique;
+  margin-left: 840px;
+  color: white;
+}
+.pnglogos {
+  margin-left: 850px;
+}
+.lasthead {
+  margin-left: 860px;
+  margin-top: 30px;
+  font-style: normal;
+  font-size: 10px;
+  color: white;
+}

@@ -11,16 +11,20 @@
   text-align: center;
   top: 70%;
   margin-left: 35%;
-  font-size: 10px;
-
+  font-size: 40px;
+  font-weight: lighter;
+  font-style: oblique;
+  color: white;
 }
+
 .logo{
   position: absolute;
-  top:25%;
+  top:35%;
   margin-left: 45%
+
 }
 .space{
-  margin: 50px;
+  margin: 100px;
 }
 .button2 {
   -webkit-border-radius: 0;
@@ -39,13 +43,30 @@
 .button2:hover {
   background: #fc693c;
   text-decoration: none;
-}
+  }
+.breakfast:hover {
+    background-color: #ffffff;
+    opacity: .4;
+ }
+ .lunch:hover {
+   background-color: #ffffff;
+   opacity: .4;
+ }
+ .dinner:hover {
+   background-color: #ffffff;
+   opacity: .4;
+ }
+ .text1:hover {
+   color: black;
+ }
 
-.fastfood{
-  float: left;
-}
-.space2 {
-  margin: 50px;
+.text1 {
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  margin-left: 35%;
+  font-size: 10px;
+  color: white;
 }
 .drinks {
   float: right;
@@ -57,17 +78,12 @@
   position: relative;
   width: 100%
 }
-.table {
-  position: absolute;
-}
 .foodsbg{
   width: 100%;
+  margin-bottom: 50px;
 }
 .spacebreak2 {
   margin: 100px;
-}
-.breakfast {
-
 }
 .padding-0 {
   padding: 0px;
@@ -75,40 +91,37 @@
   margin: 0px;
 }
 .fastfood {
-  margin-left:445px;
-  -webkit-box-shadow: 15px 8px 28px 13px rgba(234,236,237,1);
+margin-left:445px;
+-webkit-box-shadow: 15px 8px 28px 13px rgba(234,236,237,1);
 -moz-box-shadow: 15px 8px 28px 13px rgba(234,236,237,1);
 box-shadow: 15px 8px 28px 13px rgba(234,236,237,1);
 border: 2px;
-margin-bottom: 100px;
+margin-bottom: 40px;
 }
 .drinks {
-  margin-right: 440px;
-  -webkit-box-shadow: -1px 2px 4px 22px rgba(245,240,245,1);
+margin-right: 440px;
+-webkit-box-shadow: -1px 2px 4px 22px rgba(245,240,245,1);
 -moz-box-shadow: -1px 2px 4px 22px rgba(245,240,245,1);
 box-shadow: -1px 2px 4px 22px rgba(245,240,245,1);
 margin-bottom: 100px;
+margin-top: 100px
 }
 .fastp {
   margin-right: 400px;
 }
 .drinkp {
   margin-left: 400px;
+  margin-top: 100px;
 }
 .foodsbg {
   background-image: url(../ip2/assets/backgrounds/foodsBg.jpg);
   height: 600px;
-  margin-top: 10px;
-  margin-bottom: 70px;
 }
+
 table {
   background-color: white;
   width: 60%;
   margin-left: 400px;
-
-}
-.fastfood img{
-  display: none;
 }
 body {
   overflow: hidden;
@@ -124,8 +137,9 @@ body {
 }
 .name {
   text-align: center;
-  color: #FF5533;
-}.comment {
+
+}
+.comment {
   text-align: center;
 }
 .about {
@@ -135,7 +149,8 @@ body {
 .subscribe {
   background-image: url(../ip2/assets/backgrounds/subscribe.jpg);
   height: 300px;
-  width: 100%
+  margin-top: 70px;
+
 }
 .deliver {
   text-align: center;
@@ -157,8 +172,6 @@ body {
   padding-top: 100px;
   padding-left: 850px;
   color: white;
-
-
 }
 .hheading {
   font-size: 16px;

@@ -127,9 +127,11 @@ body {
   overflow: hidden;
   overflow-y: scroll;
 }
-.imgcustomer {
-  margin-left: 50px;
-  color: #FF5533;
+.imgbox {
+  padding-left: 270px;
+
+
+}
 }
 .customers {
   text-align: center;
@@ -145,6 +147,12 @@ body {
 .about {
   text-align: center;
   color: #FF5533;
+}
+.aboutmenu {
+  border-left: 1px solid grey;
+}
+.aboutmenu p{
+  margin-left: 10px;
 }
 .subscribe {
   background-image: url(../ip2/assets/backgrounds/subscribe.jpg);

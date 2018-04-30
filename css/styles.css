@@ -82,6 +82,7 @@
   width: 100%;
   margin-bottom: 50px;
 }
+
 .spacebreak2 {
   margin: 100px;
 }
@@ -97,6 +98,20 @@ margin-left:445px;
 box-shadow: 15px 8px 28px 13px rgba(234,236,237,1);
 border: 2px;
 margin-bottom: 40px;
+width: 100%%;
+}
+.navbar{
+  height: 80px;
+}
+.nvbar ul{
+  display: inline-block;
+}
+.nvbar ul li{
+  display: inline;
+
+}
+.nvbar ul li a{
+  display: inline-block;
 }
 .drinks {
 margin-right: 440px;
@@ -116,8 +131,17 @@ margin-top: 100px
 .foodsbg {
   background-image: url(../ip2/assets/backgrounds/foodsBg.jpg);
   height: 600px;
-}
 
+}
+.bgfood{
+  width: 60%;
+  background-color: #fff;
+  margin-left: 20%;
+  height: 400px;
+  margin-top: 10px;
+
+
+}
 table {
   background-color: white;
   width: 60%;
@@ -214,4 +238,12 @@ input [type=text] {
   width: 650px;
   text-align: center;
   margin-left: 600px;
+}
+.slider-img {
+  padding-top: 40px;
+  width: 700px;
+}
+.img-box {
+  padding-left: 200px;
+  margin-right: 200px;
 }

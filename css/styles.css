@@ -158,12 +158,6 @@ body {
   color: white;
   padding-top: 100px;
 }
-.box {
-  text-align: center;
-  filter:opacity(0.4);
-  width: 80%;
-  border-spacing: 100px;
-}
 .orange {
   background-color: #F95006;
   height: 300px;
@@ -188,4 +182,28 @@ body {
   font-style: normal;
   font-size: 10px;
   color: white;
+}
+input [type=text] {
+  font-size: 20px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  color: #fff;
+  object-position: center;
+}
+.butn-custom{
+  background-color: #ff751a;
+  color:#fff;
+  font-size: 17px;
+  width: 170px;
+  letter-spacing: 2px;
+}
+.form-control{
+  height: 50px;
+  border-color:transparent;
+  width: 300px;
+}
+.input-group{
+  width: 650px;
+  text-align: center;
+  margin-left: 600px;
 }

@@ -1,30 +1,21 @@
-.banner{
-  width: 100%;
-  position: relative;
+.landing {
+ background-image: url(../ip2/assets/backgrounds/landing.jpg);
+ height: 600px;
+}
+.logo {
+  margin-left: 380px;
+  padding-top: 100px;
+}
+.logoText {
 
-}
-.banner img{
-  width: 100%;
-}
-.bannerText{
-  position: absolute;
-  text-align: center;
-  top: 70%;
-  margin-left: 35%;
-  font-size: 40px;
-  font-weight: lighter;
-  font-style: oblique;
   color: white;
-}
-
-.logo{
-  position: absolute;
-  top:35%;
-  margin-left: 45%
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
 
 }
 .space{
-  margin: 100px;
+  margin: 60px;
 }
 .button2 {
   -webkit-border-radius: 0;
@@ -32,15 +23,39 @@
   border-radius: 0px;
   font-family: Arial;
   color: #2e282e;
-  font-size: 31px;
+  font-size: 32px;
   background: #ffffff;
-  padding: 20px 20px 22px 40px;
+  padding: 7px 25px 22px 100px;
   text-decoration: none;
   display: block;
-  width: 100%;
+}
+.button1 {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #2e282e;
+  font-size: 32px;
+  background: #ffffff;
+  padding: 7px 25px 22px 121px;
+  text-decoration: none;
+  display: block;
+}
+.breakfast img {
+  padding left: 150px;
+}
+.lunch img {
+
+}
+.dinner img{
+  width: 100%
 }
 
 .button2:hover {
+  background: #fc693c;
+  text-decoration: none;
+  }
+.button1:hover{
   background: #fc693c;
   text-decoration: none;
   }
@@ -63,16 +78,19 @@
 .text1 {
   position: absolute;
   text-align: center;
-  top: 70%;
-  margin-left: 35%;
+  top: 50%;
+  margin-left: 28%;
   font-size: 10px;
   color: white;
+}.breakfast {
+  padding: 0px;
 }
+
 .drinks {
-  float: right;
+  float: left;
 }
 .spacebreak {
-  margin: 50px;
+  margin: 20px;
 }
 .lastimage img {
   position: relative;
@@ -88,17 +106,16 @@
 }
 .padding-0 {
   padding: 0px;
-  border: none;
   margin: 0px;
 }
 .fastfood {
-margin-left:445px;
+margin-left:50px;
 -webkit-box-shadow: 15px 8px 28px 13px rgba(234,236,237,1);
 -moz-box-shadow: 15px 8px 28px 13px rgba(234,236,237,1);
 box-shadow: 15px 8px 28px 13px rgba(234,236,237,1);
 border: 2px;
 margin-bottom: 40px;
-width: 100%%;
+
 }
 .navbar{
   height: 80px;
@@ -114,19 +131,19 @@ width: 100%%;
   display: inline-block;
 }
 .drinks {
-margin-right: 440px;
+margin-right: 40px;
 -webkit-box-shadow: -1px 2px 4px 22px rgba(245,240,245,1);
 -moz-box-shadow: -1px 2px 4px 22px rgba(245,240,245,1);
 box-shadow: -1px 2px 4px 22px rgba(245,240,245,1);
 margin-bottom: 100px;
-margin-top: 100px
+margin-top: 50px
 }
 .fastp {
-  margin-right: 400px;
+  margin-right: 40px;
 }
 .drinkp {
-  margin-left: 400px;
-  margin-top: 100px;
+  margin-left: 40px;
+  margin-top: 60px;
 }
 .foodsbg {
   background-image: url(../ip2/assets/backgrounds/foodsBg.jpg);
@@ -147,10 +164,7 @@ table {
   width: 60%;
   margin-left: 400px;
 }
-body {
-  overflow: hidden;
-  overflow-y: scroll;
-}
+
 .imgbox {
   padding-left: 270px;
 
@@ -181,7 +195,7 @@ body {
 .subscribe {
   background-image: url(../ip2/assets/backgrounds/subscribe.jpg);
   height: 300px;
-  margin-top: 70px;
+  margin-top: 40px;
 
 }
 .deliver {
@@ -196,20 +210,20 @@ body {
 }
 .logowhite {
   padding-top: 100px;
-  padding-left: 850px;
+  padding-left: 500px;
   color: white;
 }
 .hheading {
   font-size: 16px;
   font-style: oblique;
-  margin-left: 840px;
+  margin-left: 500px;
   color: white;
 }
 .pnglogos {
-  margin-left: 850px;
+  margin-left: 500px;
 }
 .lasthead {
-  margin-left: 860px;
+  margin-left: 510px;
   margin-top: 30px;
   font-style: normal;
   font-size: 10px;
@@ -232,12 +246,12 @@ input [type=text] {
 .form-control{
   height: 50px;
   border-color:transparent;
-  width: 300px;
+  width: 100px;
 }
 .input-group{
-  width: 650px;
+  width: 400px;
   text-align: center;
-  margin-left: 600px;
+  margin-left: 180px;
 }
 .slider-img {
   padding-top: 40px;

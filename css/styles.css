@@ -1,6 +1,8 @@
 .landing {
  background-image: url(../ip2/assets/backgrounds/landing.jpg);
  height: 600px;
+ width: 100%;
+
 }
 .logo {
   margin-left: 380px;
@@ -25,7 +27,7 @@
   color: #2e282e;
   font-size: 32px;
   background: #ffffff;
-  padding: 7px 25px 22px 100px;
+  padding: 14px 25px 22px 85px;
   text-decoration: none;
   display: block;
 }
@@ -37,18 +39,9 @@
   color: #2e282e;
   font-size: 32px;
   background: #ffffff;
-  padding: 7px 25px 22px 121px;
-  text-decoration: none;
+  padding: 14px 25px 22px 105px;
+  text-decoration: non0
   display: block;
-}
-.breakfast img {
-  padding left: 150px;
-}
-.lunch img {
-
-}
-.dinner img{
-  width: 100%
 }
 
 .button2:hover {
@@ -104,10 +97,7 @@
 .spacebreak2 {
   margin: 100px;
 }
-.padding-0 {
-  padding: 0px;
-  margin: 0px;
-}
+
 .fastfood {
 margin-left:50px;
 -webkit-box-shadow: 15px 8px 28px 13px rgba(234,236,237,1);
@@ -156,8 +146,6 @@ margin-top: 50px
   margin-left: 20%;
   height: 400px;
   margin-top: 10px;
-
-
 }
 table {
   background-color: white;
@@ -167,10 +155,8 @@ table {
 
 .imgbox {
   padding-left: 270px;
-
-
 }
-}
+
 .customers {
   text-align: center;
   color: #FF5533
@@ -240,16 +226,16 @@ input [type=text] {
   background-color: #ff751a;
   color:#fff;
   font-size: 17px;
-  width: 170px;
+  width: 180px;
   letter-spacing: 2px;
 }
 .form-control{
-  height: 50px;
+  height: 90px;
   border-color:transparent;
   width: 100px;
 }
 .input-group{
-  width: 400px;
+  width: 750px;
   text-align: center;
   margin-left: 180px;
 }
